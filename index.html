@@ -476,12 +476,40 @@
             <use href="./images/icons.svg#icon-close-btn"></use>
           </svg>
         </button>
-        <p>Content</p>
         <form class="modal-form">
-          <input class="modal-input" type="text" />
-          <input class="modal-input" type="text" />
-          <input class="modal-input" type="text" />
+          <label class="modal-label" for="user-name">Name</label>
+          <input
+            class="modal-input"
+            name="user-name"
+            type="text"
+            id="user-name"
+          />
+          <label class="modal-label" for="user-phone">Phone</label>
+          <input
+            class="modal-input"
+            name="user-phone"
+            type="tel"
+            id="user-phone"
+          />
+          <label class="modal-label" for="user-email">Email</label>
+          <input
+            class="modal-input"
+            name="user-email"
+            type="email"
+            id="user-email"
+          />
         </form>
+        <form class="modal-form-comment">
+          <label class="modal-label" for="comment">Comment</label>
+          <input
+            class="modal-input-comment"
+            name="comment"
+            type="text"
+            placeholder="Text input"
+            id="comment"
+          />
+        </form>
+        <button type="submit">send</button>
       </div>
     </div>
     <!-- modal-window -->
