@@ -734,6 +734,9 @@ body {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
+.modal-check-span {
+  display: inline-flex;
+}
 .check-text span {
   display: inline-flex;
   position: relative;
