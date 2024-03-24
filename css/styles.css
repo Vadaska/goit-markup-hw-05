@@ -725,7 +725,7 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 .check-link {
@@ -734,9 +734,7 @@ body {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
-.modal-check-span {
-  display: inline-flex;
-}
+
 .check-text span {
   display: inline-flex;
   position: relative;
@@ -745,7 +743,6 @@ body {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
