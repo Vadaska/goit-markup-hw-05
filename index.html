@@ -536,7 +536,6 @@
               </svg>
             </div>
           </div>
-
           <div class="modal-field">
             <label class="modal-label" for="user-comment">Comment</label>
             <textarea
@@ -550,12 +549,13 @@
             <input
               class="modal-check visually-hidden"
               type="checkbox"
-              name="test"
-              id="privacy"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
               required
             />
-            <label class="check-text" for="privacy"
-              ><span
+            <label class="check-text" for="user-privacy"
+              ><span class="modal-check-span"
                 ><svg width="10" height="8" class="check-icon-vector">
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg> </span
@@ -563,7 +563,6 @@
               <a href="" class="check-link">Privacy Policy</a></label
             >
           </div>
-
           <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
