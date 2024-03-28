@@ -310,7 +310,6 @@ body {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
-  /* margin-bottom: 8px */
 }
 .card-text {
   padding-top: 32px;
@@ -320,12 +319,8 @@ body {
 .team-card {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  /* padding: 0px 0px 32px 0px; */
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
-.team-image {
 }
 
 .team-title-list {
@@ -699,7 +694,10 @@ body {
 }
 .modal-field {
   position: relative;
-  margin-bottom: 16px;
+}
+
+.modal-textarea {
+  margin-bottom: 13px;
 }
 
 .modal-icon {
@@ -725,7 +723,6 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  /* display: flex; */
   align-items: center;
 }
 .check-link {
